@@ -10,9 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/MahdiSohaily/notifications-page-demo.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["notifications", "bootstrap", "sass", "Purge-css"],
+  "author": "Mahdi Rezzaei",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/MahdiSohaily/notifications-page-demo/issues"
   },
