@@ -1,0 +1,23 @@
+{
+  "name": "notifications-page-demo",
+  "version": "1.0.0",
+  "description": "Distinguish between \"unread\" and \"read\" notifications. Select \"Mark all as read\" to toggle the visual state of the unread notifications and set the number of unread messages to zero. See hover and focus states for all interactive elements on the page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MahdiSohaily/notifications-page-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MahdiSohaily/notifications-page-demo/issues"
+  },
+  "homepage": "https://github.com/MahdiSohaily/notifications-page-demo#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  }
+}
