@@ -8,3 +8,12 @@ $Very-dark-blue: hsl(224, 21%, 14%);
 $fw-500: 500;
 $fw-800: 800;
 $font-family-sans-serif: 'Plus Jakarta Sans', sans-serif;
+
+$theme-colors: (
+  'Very-light-grayish-blue':    $Very-light-grayish-blue,
+  'light-grayish-blue-200':     $light-grayish-blue-200,
+  'light-grayish-blue-100':     $light-grayish-blue-100,
+  'Grayish-blue':               $Grayish-blue,
+  'Dark-grayish-blue':          $Dark-grayish-blue,
+  'Very-dark-blue':             $Very-dark-blue,
+);
