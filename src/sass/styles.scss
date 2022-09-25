@@ -1,6 +1,7 @@
-@use '_custom';
 @import '../../node_modules/bootstrap/scss/functions'; // Required
+@use 'customVariables';
 @import '../../node_modules/bootstrap/scss/variables'; // Required
 @import '../../node_modules/bootstrap/scss/mixins';// Required
+@import '../../node_modules/bootstrap/scss/utilities';// optional
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
