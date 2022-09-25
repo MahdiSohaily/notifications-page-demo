@@ -6764,24 +6764,12 @@ textarea.form-control-lg {
   float: none !important;
 }
 
-.opacity-0 {
-  opacity: 0 !important;
+.fw-500 {
+  font-weight: 500 !important;
 }
 
-.opacity-25 {
-  opacity: 0.25 !important;
-}
-
-.opacity-50 {
-  opacity: 0.5 !important;
-}
-
-.opacity-75 {
-  opacity: 0.75 !important;
-}
-
-.opacity-100 {
-  opacity: 1 !important;
+.fw-800 {
+  font-weight: 800 !important;
 }
 
 .overflow-auto {
@@ -8065,14 +8053,6 @@ textarea.form-control-lg {
 
 .invisible {
   visibility: hidden !important;
-}
-
-.opacity-500 {
-  opacity: 500 !important;
-}
-
-.opacity-800 {
-  opacity: 800 !important;
 }
 
 @media (min-width: 576px) {
