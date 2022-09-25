@@ -6,13 +6,29 @@
 // 3. Include remainder of required Bootstrap stylesheets
 @import '../../node_modules/bootstrap/scss/variables';
 
-// 4. Include any default map overrides here
+$theme-colors: (
+  'Very-light-grayish-blue': $Very-light-grayish-blue,
+  'light-grayish-blue-200': $light-grayish-blue-200,
+  'light-grayish-blue-100': $light-grayish-blue-100,
+  'Grayish-blue': $Grayish-blue,
+  'Dark-grayish-blue': $Dark-grayish-blue,
+  'Very-dark-blue': $Very-dark-blue,
+);
 
 // 5. Include remainder of required parts
 @import '../../node_modules/bootstrap/scss/maps';
 @import '../../node_modules/bootstrap/scss/mixins';
-
-// 6. Optionally include any other parts as needed
 @import '../../node_modules/bootstrap/scss/utilities';
+
+// custom utilities
+$utilities: (
+  'fw': (
+    property: opacity,
+    values: (
+      500: 500,
+      800: 800,
+    ),
+  ),
+);
 
 @import '../../node_modules/bootstrap/scss/bootstrap';
