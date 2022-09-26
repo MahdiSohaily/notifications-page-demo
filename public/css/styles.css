@@ -10581,6 +10581,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.primary-header {
+  font-size: 20px;
+  font-weight: 800;
+}
+
 p {
   margin-bottom: 0;
   color: hsl(220deg, 8%, 45%);
@@ -10611,7 +10616,7 @@ p {
 
 .notification-area {
   flex: 1;
-  max-width: min(95%, 730px);
+  max-width: min(100%, 730px);
 }
 
 /*# sourceMappingURL=styles.css.map */

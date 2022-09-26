@@ -36,6 +36,10 @@ $utilities: (
 
 // custom styles
 // general styling
+.primary-header {
+  font-size: 20px;
+  font-weight: 800;
+}
 p {
   margin-bottom: 0;
   color: $Dark-grayish-blue;
@@ -66,5 +70,5 @@ p {
 // component styles
 .notification-area {
   flex: 1;
-  max-width: min(95%, 730px);
+  max-width: min(100%, 730px);
 }
