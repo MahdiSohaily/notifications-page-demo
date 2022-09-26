@@ -10614,6 +10614,15 @@ p {
   background-color: hsl(211deg, 68%, 94%);
 }
 
+.user-name:hover,
+.post:hover,
+.group:hover,
+.message:hover,
+.read:hover {
+  cursor: pointer;
+  color: hsl(220deg, 84%, 26%);
+}
+
 .notification-area {
   flex: 1;
   max-width: min(100%, 730px);

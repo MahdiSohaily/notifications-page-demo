@@ -67,6 +67,15 @@ p {
 .active {
   background-color: $light-grayish-blue-200;
 }
+
+.user-name:hover,
+.post:hover,
+.group:hover,
+.message:hover,
+.read:hover {
+  cursor: pointer;
+  color: $Very-dark-blue;
+}
 // component styles
 .notification-area {
   flex: 1;
