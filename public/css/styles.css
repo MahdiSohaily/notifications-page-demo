@@ -10581,5 +10581,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.notification-area {
+  flex: 1;
+  max-width: min(95%, 730px);
+}
 
 /*# sourceMappingURL=styles.css.map */
