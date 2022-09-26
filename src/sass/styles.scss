@@ -76,6 +76,10 @@ p {
   cursor: pointer;
   color: $Very-dark-blue;
 }
+
+.message:hover {
+  background-color: $light-grayish-blue-200;
+}
 // component styles
 .notification-area {
   flex: 1;
