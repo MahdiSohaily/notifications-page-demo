@@ -10619,4 +10619,15 @@ p {
   max-width: min(100%, 730px);
 }
 
+.active .description::after {
+  content: "";
+  position: absolute;
+  bottom: 7px;
+  margin-left: 5px;
+  background-color: rgb(220, 62, 62);
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
 /*# sourceMappingURL=styles.css.map */
