@@ -10618,7 +10618,7 @@ p {
 .post:hover,
 .group:hover,
 .message:hover,
-.read:hover {
+.post-image:hover .read:hover {
   cursor: pointer;
   color: hsl(220deg, 84%, 26%);
 }
