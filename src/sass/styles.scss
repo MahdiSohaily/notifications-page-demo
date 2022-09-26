@@ -35,6 +35,35 @@ $utilities: (
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
 // custom styles
+// general styling
+p {
+  margin-bottom: 0;
+  color: $Grayish-blue;
+}
+
+.user-name {
+  font-weight: 800;
+  color: black;
+}
+
+.post {
+  color: $Dark-grayish-blue;
+  font-weight: 800;
+}
+
+.group {
+  color: $Very-dark-blue;
+  font-weight: 800;
+}
+
+.timing {
+  color: $Dark-grayish-blue;
+}
+
+.active {
+  background-color: $light-grayish-blue-200;
+}
+// component styles
 .notification-area {
   flex: 1;
   max-width: min(95%, 730px);
